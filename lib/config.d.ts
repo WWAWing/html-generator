@@ -42,7 +42,7 @@ export declare type WWAPageConfigForRendering = WWAPageConfigWithDefaults & {
     utils: Utils;
 };
 export interface WWAConfig {
-    urlgateEnable: boolean;
+    urlgateEnable?: boolean;
     resources?: {
         mapdata: string;
         loader?: string;
