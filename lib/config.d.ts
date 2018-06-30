@@ -77,6 +77,6 @@ export interface WWAPageConfig {
         copyrights?: Copyright[];
     };
 }
-export declare function fillDefaultsAndUtil(wwaPageConfig: WWAPageConfig): WWAPageConfigForRendering;
-export declare function getConfigFromFile(configFilePath: string): WWAPageConfigForRendering;
+export declare function fillDefaultsAndUtil(wwaPageConfig: WWAPageConfig, overwriteDefaultCopyrights?: boolean): WWAPageConfigForRendering;
+export declare function getConfigFromFile(configFilePath: string, overwriteDefaultCopyrights?: boolean): WWAPageConfigForRendering;
 export {};
