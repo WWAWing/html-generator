@@ -79,6 +79,7 @@ export interface WWAPageConfig {
         copyrights?: Copyright[];
     };
 }
+export declare function getDefaultCopyrights(): Copyright[];
 export declare function fillDefaultsAndUtil(wwaPageConfig: WWAPageConfig, overwriteDefaultCopyrights?: boolean): WWAPageConfigForRendering;
 export declare function getConfigFromFile(configFilePath: string, overwriteDefaultCopyrights?: boolean): WWAPageConfigForRendering;
 export {};
