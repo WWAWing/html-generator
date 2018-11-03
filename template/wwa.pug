@@ -38,6 +38,7 @@ doctype html
 html(lang="ja")
     head
         meta(charset="UTF-8")
+        meta(name="viewport" content="width=560px, inital-scale=1.0")
         title #{page.title}
         +additionalCss(page.additionalCssFiles)
         +wwaRequirements(page.wwa.resources, utils.concatDirAndFile, page.isDevMode)
