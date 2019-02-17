@@ -10,7 +10,6 @@ interface WWAConfigWithDefaults {
         wwaJs: string;
         wwaCss: string;
         titleImg?: string;
-        cryptoJsInDevMode?: string;
     };
 }
 interface CopyrightWithDefaults {
@@ -33,7 +32,6 @@ interface WWAPageConfigWithDefaults {
     page: {
         template: string;
         title: string;
-        isDevMode: boolean;
         additionalCssFiles?: string[];
         wwa: WWAConfigWithDefaults;
         copyrights?: CopyrightWithDefaults[];
@@ -54,7 +52,6 @@ export interface WWAConfig {
         wwaJs?: string;
         wwaCss?: string;
         titleImg?: string;
-        cryptoJsInDevMode?: string;
     };
 }
 export interface Copyright {
@@ -73,7 +70,6 @@ export interface WWAPageConfig {
     page: {
         template?: string;
         title?: string;
-        isDevMode?: boolean;
         additionalCssFiles?: string[];
         wwa: WWAConfig;
         copyrights?: Copyright[];
