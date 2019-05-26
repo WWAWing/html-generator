@@ -5,7 +5,6 @@ interface WWAConfigWithDefaults {
         loader: string;
         audio: {
             dir: string;
-            js: string;
         };
         wwaJs: string;
         wwaCss: string;
@@ -47,7 +46,6 @@ export interface WWAConfig {
         loader?: string;
         audio?: {
             dir?: string;
-            js?: string;
         };
         wwaJs?: string;
         wwaCss?: string;
